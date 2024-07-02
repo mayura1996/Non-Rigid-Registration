@@ -330,9 +330,9 @@ def save_pc2visual(save_dir, epoch, point_set1, point_set2, warped):
 import ctypes
 from torch.autograd import Function
 
-if torch.cuda.is_available():
-    lib = ctypes.cdll.LoadLibrary("libmorton/encode.so")
-    lib.encode.restype = ctypes.c_uint64
+# if torch.cuda.is_available():
+#     lib = ctypes.cdll.LoadLibrary("libmorton/encode.so")
+#     lib.encode.restype = ctypes.c_uint64
 
 
 def z_order_encode(inputs):

@@ -1,0 +1,8 @@
+2024-07-02 16:15:25,333 - Transformer - INFO - INIT PARAMETERS ...
+2024-07-02 16:15:25,333 - Transformer - INFO - Namespace(batch_size=16, decay_rate=0.0002, deform_level=0.4, epoch=20, gpu='0', learning_rate=0.001, log_dir=None, lr_decay=0.5, model='transformer_2d_tps', normal=False, npoint=1024, optimizer='Adam', step_size=3)
+2024-07-02 16:18:09,340 - Transformer - INFO - The number of training data is: 100000
+2024-07-02 16:18:09,340 - Transformer - INFO - The number of test data is: 3000
+2024-07-02 16:18:09,394 - Transformer - INFO - No existing model, starting training from scratch...
+2024-07-02 16:18:09,396 - Transformer - INFO - Epoch 1 (1/20):
+2024-07-02 16:18:09,396 - Transformer - INFO - Learning rate:0.001000
+2024-07-02 16:21:32,373 - Transformer - INFO - EPOCH 1 train: loss1 is: 0.02424   loss2 is: 0.02424 

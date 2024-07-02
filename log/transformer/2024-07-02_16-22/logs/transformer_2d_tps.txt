@@ -1,0 +1,101 @@
+2024-07-02 16:22:53,959 - Transformer - INFO - INIT PARAMETERS ...
+2024-07-02 16:22:53,959 - Transformer - INFO - Namespace(batch_size=16, decay_rate=0.0002, deform_level=0.4, epoch=20, gpu='0', learning_rate=0.001, log_dir=None, lr_decay=0.5, model='transformer_2d_tps', normal=False, npoint=1024, optimizer='Adam', step_size=3)
+2024-07-02 16:25:25,149 - Transformer - INFO - The number of training data is: 100000
+2024-07-02 16:25:25,149 - Transformer - INFO - The number of test data is: 3000
+2024-07-02 16:25:25,204 - Transformer - INFO - No existing model, starting training from scratch...
+2024-07-02 16:25:25,205 - Transformer - INFO - Epoch 1 (1/20):
+2024-07-02 16:25:25,206 - Transformer - INFO - Learning rate:0.001000
+2024-07-02 16:28:31,601 - Transformer - INFO - EPOCH 1 train: loss1 is: 0.03136   loss2 is: 0.03136 
+2024-07-02 16:28:33,234 - Transformer - INFO - EPOCH 1 test: loss1 is: 0.01199   loss2 is: 0.01199 
+2024-07-02 16:28:33,234 - Transformer - INFO - Save model...
+2024-07-02 16:28:33,234 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 16:28:33,516 - Transformer - INFO - Epoch 2 (2/20):
+2024-07-02 16:28:33,516 - Transformer - INFO - Learning rate:0.001000
+2024-07-02 16:31:43,695 - Transformer - INFO - EPOCH 2 train: loss1 is: 0.01156   loss2 is: 0.01156 
+2024-07-02 16:31:45,281 - Transformer - INFO - EPOCH 2 test: loss1 is: 0.01039   loss2 is: 0.01039 
+2024-07-02 16:31:45,281 - Transformer - INFO - Save model...
+2024-07-02 16:31:45,281 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 16:31:45,542 - Transformer - INFO - Epoch 3 (3/20):
+2024-07-02 16:31:45,542 - Transformer - INFO - Learning rate:0.001000
+2024-07-02 16:34:53,173 - Transformer - INFO - EPOCH 3 train: loss1 is: 0.01078   loss2 is: 0.01078 
+2024-07-02 16:34:54,798 - Transformer - INFO - EPOCH 3 test: loss1 is: 0.01040   loss2 is: 0.01040 
+2024-07-02 16:34:54,798 - Transformer - INFO - Epoch 4 (4/20):
+2024-07-02 16:34:54,799 - Transformer - INFO - Learning rate:0.000500
+2024-07-02 16:38:03,838 - Transformer - INFO - EPOCH 4 train: loss1 is: 0.01018   loss2 is: 0.01018 
+2024-07-02 16:38:05,419 - Transformer - INFO - EPOCH 4 test: loss1 is: 0.00964   loss2 is: 0.00964 
+2024-07-02 16:38:05,419 - Transformer - INFO - Save model...
+2024-07-02 16:38:05,420 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 16:38:05,682 - Transformer - INFO - Epoch 5 (5/20):
+2024-07-02 16:38:05,682 - Transformer - INFO - Learning rate:0.000500
+2024-07-02 16:41:15,114 - Transformer - INFO - EPOCH 5 train: loss1 is: 0.01013   loss2 is: 0.01013 
+2024-07-02 16:41:16,754 - Transformer - INFO - EPOCH 5 test: loss1 is: 0.00971   loss2 is: 0.00971 
+2024-07-02 16:41:16,754 - Transformer - INFO - Epoch 6 (6/20):
+2024-07-02 16:41:16,754 - Transformer - INFO - Learning rate:0.000500
+2024-07-02 16:44:24,990 - Transformer - INFO - EPOCH 6 train: loss1 is: 0.01012   loss2 is: 0.01012 
+2024-07-02 16:44:26,586 - Transformer - INFO - EPOCH 6 test: loss1 is: 0.01021   loss2 is: 0.01021 
+2024-07-02 16:44:26,586 - Transformer - INFO - Epoch 7 (7/20):
+2024-07-02 16:44:26,586 - Transformer - INFO - Learning rate:0.000250
+2024-07-02 16:47:30,885 - Transformer - INFO - EPOCH 7 train: loss1 is: 0.00982   loss2 is: 0.00982 
+2024-07-02 16:47:32,530 - Transformer - INFO - EPOCH 7 test: loss1 is: 0.00978   loss2 is: 0.00978 
+2024-07-02 16:47:32,530 - Transformer - INFO - Epoch 8 (8/20):
+2024-07-02 16:47:32,531 - Transformer - INFO - Learning rate:0.000250
+2024-07-02 16:50:43,350 - Transformer - INFO - EPOCH 8 train: loss1 is: 0.00980   loss2 is: 0.00980 
+2024-07-02 16:50:44,933 - Transformer - INFO - EPOCH 8 test: loss1 is: 0.00995   loss2 is: 0.00995 
+2024-07-02 16:50:44,933 - Transformer - INFO - Epoch 9 (9/20):
+2024-07-02 16:50:44,933 - Transformer - INFO - Learning rate:0.000250
+2024-07-02 16:53:55,273 - Transformer - INFO - EPOCH 9 train: loss1 is: 0.00982   loss2 is: 0.00982 
+2024-07-02 16:53:56,924 - Transformer - INFO - EPOCH 9 test: loss1 is: 0.00939   loss2 is: 0.00939 
+2024-07-02 16:53:56,924 - Transformer - INFO - Save model...
+2024-07-02 16:53:56,924 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 16:53:57,201 - Transformer - INFO - Epoch 10 (10/20):
+2024-07-02 16:53:57,201 - Transformer - INFO - Learning rate:0.000125
+2024-07-02 16:57:07,354 - Transformer - INFO - EPOCH 10 train: loss1 is: 0.00964   loss2 is: 0.00964 
+2024-07-02 16:57:08,949 - Transformer - INFO - EPOCH 10 test: loss1 is: 0.00943   loss2 is: 0.00943 
+2024-07-02 16:57:08,949 - Transformer - INFO - Epoch 11 (11/20):
+2024-07-02 16:57:08,949 - Transformer - INFO - Learning rate:0.000125
+2024-07-02 17:00:20,423 - Transformer - INFO - EPOCH 11 train: loss1 is: 0.00963   loss2 is: 0.00963 
+2024-07-02 17:00:22,112 - Transformer - INFO - EPOCH 11 test: loss1 is: 0.00954   loss2 is: 0.00954 
+2024-07-02 17:00:22,112 - Transformer - INFO - Epoch 12 (12/20):
+2024-07-02 17:00:22,112 - Transformer - INFO - Learning rate:0.000125
+2024-07-02 17:03:33,776 - Transformer - INFO - EPOCH 12 train: loss1 is: 0.00964   loss2 is: 0.00964 
+2024-07-02 17:03:35,363 - Transformer - INFO - EPOCH 12 test: loss1 is: 0.00934   loss2 is: 0.00934 
+2024-07-02 17:03:35,364 - Transformer - INFO - Save model...
+2024-07-02 17:03:35,364 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 17:03:35,635 - Transformer - INFO - Epoch 13 (13/20):
+2024-07-02 17:03:35,635 - Transformer - INFO - Learning rate:0.000063
+2024-07-02 17:06:45,555 - Transformer - INFO - EPOCH 13 train: loss1 is: 0.00952   loss2 is: 0.00952 
+2024-07-02 17:06:47,131 - Transformer - INFO - EPOCH 13 test: loss1 is: 0.00967   loss2 is: 0.00967 
+2024-07-02 17:06:47,131 - Transformer - INFO - Epoch 14 (14/20):
+2024-07-02 17:06:47,131 - Transformer - INFO - Learning rate:0.000063
+2024-07-02 17:09:55,119 - Transformer - INFO - EPOCH 14 train: loss1 is: 0.00951   loss2 is: 0.00951 
+2024-07-02 17:09:56,772 - Transformer - INFO - EPOCH 14 test: loss1 is: 0.00941   loss2 is: 0.00941 
+2024-07-02 17:09:56,772 - Transformer - INFO - Epoch 15 (15/20):
+2024-07-02 17:09:56,772 - Transformer - INFO - Learning rate:0.000063
+2024-07-02 17:13:06,668 - Transformer - INFO - EPOCH 15 train: loss1 is: 0.00952   loss2 is: 0.00952 
+2024-07-02 17:13:08,402 - Transformer - INFO - EPOCH 15 test: loss1 is: 0.00952   loss2 is: 0.00952 
+2024-07-02 17:13:08,402 - Transformer - INFO - Epoch 16 (16/20):
+2024-07-02 17:13:08,402 - Transformer - INFO - Learning rate:0.000031
+2024-07-02 17:16:35,626 - Transformer - INFO - EPOCH 16 train: loss1 is: 0.00944   loss2 is: 0.00944 
+2024-07-02 17:16:37,301 - Transformer - INFO - EPOCH 16 test: loss1 is: 0.00928   loss2 is: 0.00928 
+2024-07-02 17:16:37,301 - Transformer - INFO - Save model...
+2024-07-02 17:16:37,301 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 17:16:37,579 - Transformer - INFO - Epoch 17 (17/20):
+2024-07-02 17:16:37,579 - Transformer - INFO - Learning rate:0.000031
+2024-07-02 17:20:00,238 - Transformer - INFO - EPOCH 17 train: loss1 is: 0.00945   loss2 is: 0.00945 
+2024-07-02 17:20:02,048 - Transformer - INFO - EPOCH 17 test: loss1 is: 0.00916   loss2 is: 0.00916 
+2024-07-02 17:20:02,049 - Transformer - INFO - Save model...
+2024-07-02 17:20:02,049 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/best_model.pth
+2024-07-02 17:20:02,342 - Transformer - INFO - Epoch 18 (18/20):
+2024-07-02 17:20:02,342 - Transformer - INFO - Learning rate:0.000031
+2024-07-02 17:23:23,530 - Transformer - INFO - EPOCH 18 train: loss1 is: 0.00943   loss2 is: 0.00943 
+2024-07-02 17:23:25,154 - Transformer - INFO - EPOCH 18 test: loss1 is: 0.00934   loss2 is: 0.00934 
+2024-07-02 17:23:25,154 - Transformer - INFO - Epoch 19 (19/20):
+2024-07-02 17:23:25,154 - Transformer - INFO - Learning rate:0.000016
+2024-07-02 17:26:39,595 - Transformer - INFO - EPOCH 19 train: loss1 is: 0.00939   loss2 is: 0.00939 
+2024-07-02 17:26:41,529 - Transformer - INFO - EPOCH 19 test: loss1 is: 0.00930   loss2 is: 0.00930 
+2024-07-02 17:26:41,529 - Transformer - INFO - Epoch 20 (20/20):
+2024-07-02 17:26:41,529 - Transformer - INFO - Learning rate:0.000016
+2024-07-02 17:30:08,674 - Transformer - INFO - EPOCH 20 train: loss1 is: 0.00939   loss2 is: 0.00939 
+2024-07-02 17:30:10,461 - Transformer - INFO - EPOCH 20 test: loss1 is: 0.00932   loss2 is: 0.00932 
+2024-07-02 17:30:10,461 - Transformer - INFO - Save last model...
+2024-07-02 17:30:10,461 - Transformer - INFO - Saving at log/transformer/2024-07-02_16-22/checkpoints/last_model.pth

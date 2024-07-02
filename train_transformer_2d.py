@@ -160,7 +160,7 @@ def main(args):
             points1, points2 = points1.cuda(), points2.cuda()
             optimizer.zero_grad()
             classifier = classifier.train()
-            ret = classifier(points1, points2,epoch=epoch,total_epoch=args.epoch)
+            ret = classifier(points1, points2)
             if len(ret) == 2:
                 warped, loss1 = ret
                 loss2=torch.zeros([1])
@@ -193,7 +193,7 @@ def main(args):
 
                 points1, points2 = points1.cuda(), points2.cuda()
                 classifier = classifier.eval()
-                ret = classifier(points1, points2, epoch=epoch, total_epoch=args.epoch)
+                ret = classifier(points1, points2)
                 if len(ret) == 2:
                     warped, loss1 = ret
                     loss2=torch.zeros([1])
